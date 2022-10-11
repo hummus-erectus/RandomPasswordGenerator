@@ -17,6 +17,10 @@ h1 span{
     color: #4ADF86;
 }
 
+.checkboxes {
+    margin-top: 1em;
+}
+
 
 button {
     display: block;
