@@ -7,12 +7,15 @@
         <div class="container">
             <h1>Generate a<br><span>random password</span></h1>
             <p>Never use an insecure password again.</p>
-            <button onclick="generatePasswords()">Generate passwords</button>
+            <label for="tentacles">Number of characters (6-15):</label>
+            <input type="number" id="passwordLength" name="passwordLength" min="6" max="15" value="15">
+            <button id="generateButton">Generate passwords</button>
             <hr>
             <div class="pws">
                 <p id="pw1-el" class="pw"></p>
                 <p id="pw2-el" class="pw"></p>
             </div>
+            <p id="copyMsg"></p>
             <script src="index.js"></script>
         </div>
     </body>
