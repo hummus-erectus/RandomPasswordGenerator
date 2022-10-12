@@ -20,10 +20,23 @@ h1 span{
     color: #4ADF86;
 }
 
-.checkboxes {
-    margin-top: 16px;
+form {
+    white-space: nowrap;
 }
 
+form label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+form label:first-child {
+    display:block;
+}
+
+
+.check-num {
+    margin-right: 5px;
+}
 
 button {
     display: block;
@@ -40,7 +53,6 @@ button {
 .pws{
     display: flex;
     justify-content: center;
-
 }
 
 .pw {
@@ -70,4 +82,23 @@ hr {
     height: 16px;
     font-size: 13px;
     margin-top: 0;
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        height: 100%;
+        width: 100%;
+    }
+
+    .pws{
+        display: block;
+    }
+
+    .pw {
+        display: block;
+    }
+
+    #pw2-el{
+        margin-left: 0;
+    }
 }
