@@ -4,6 +4,9 @@ html, body {
     color: #FFFFFF;
     display: flex;
     justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
     
 }
 
@@ -11,7 +14,7 @@ html, body {
     margin-top: 32px;
     padding: 32px;
     background: #1F2937;
-    flex-basis: 500px;
+    /* flex-basis: 500px; */
 }
 
 
