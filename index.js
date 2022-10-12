@@ -59,7 +59,7 @@
         event.preventDefault;
         if(pw1el.textContent){
             const cb = navigator.clipboard;
-            cb.writeText(pw1el.innerText).then(() => alert('Pasword copied to clipboard'));
+            cb.writeText(pw1el.innerText).then(() => alert('Password copied to clipboard'));
         }
     });
 
@@ -67,7 +67,7 @@
         event.preventDefault;
         if(pw2el.textContent){
             const cb = navigator.clipboard;
-            cb.writeText(pw2el.innerText).then(() => alert('Pasword copied to clipboard'));
+            cb.writeText(pw2el.innerText).then(() => alert('Password copied to clipboard'));
         }
     });
 
