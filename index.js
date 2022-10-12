@@ -34,9 +34,13 @@
         }
 
         pw1el.textContent=randomString(userLength);
-        pw2el.textContent=randomString(userLength);
-        pwdMsg.textContent="Click a password to copy it to the clipboard";
-   
+        pw2el.textContent=randomString(userLength);   
+
+        if(pw1el.textContent){
+            pwdMsg.textContent="Click a password to copy it to the clipboard";
+        }else{
+            pwdMsg.textContent="Please specify a number of characters between 6 and 15";
+        }
     });
 
     function randomString(length){
