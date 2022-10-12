@@ -13,7 +13,6 @@ html, body {
 .container {
     padding: 32px;
     background: #1F2937;
-    flex-basis: 500px;
 }
 
 
